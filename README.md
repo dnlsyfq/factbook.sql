@@ -129,3 +129,21 @@ puts "Done."
 Send them along to the [Open World Database (world.db) and Friends Forum/Mailing List](http://groups.google.com/group/openmundi). 
 Thanks!
 
+## Update !
+Thanks for the contributors and everyone making the data available publicly.
+
+Here's just my little contribution for analysis.
+
+
+### Descriptions of the columns' dataset 
+
+* name - The name of the country.
+* area - The total land and sea area of the country.
+* population - The country's population.
+* population_growth- The country's population growth as a percentage.
+* birth_rate - The country's birth rate, or the number of births a year per 1,000 people.
+* death_rate - The country's death rate, or the number of death a year per 1,000 people.
+* area- The country's total area (both land and water).
+* area_land - The country's land area in square kilometers.
+* area_water - The country's waterarea in square kilometers.
+
