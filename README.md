@@ -137,6 +137,8 @@ Here's just my little contribution for analysis.
 
 ### Descriptions of the columns' dataset 
 
+**Facts Table**
+
 * name - The name of the country.
 * area - The total land and sea area of the country.
 * population - The country's population.
@@ -147,3 +149,19 @@ Here's just my little contribution for analysis.
 * area_land - The country's land area in square kilometers.
 * area_water - The country's waterarea in square kilometers.
 
+**Cities Table**
+
+id - A unique ID for each city.
+name - The name of the city.
+population - The population of the city.
+capital - Whether the city is a capital city: 1 if it is, 0 if it isn't.
+facts_id - The ID of the country, from the facts table.
+
+### Method 
+
+1. check your brew 
+  > brew list 
+2. if there's no sqlite 
+  > brew install sqlite
+3. install vs code sqlite extension 
+  > (SQLite)[https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite]
